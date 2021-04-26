@@ -1,0 +1,95 @@
+
+*** Running vivado
+    with args -log system_auto_ds_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_auto_ds_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source system_auto_ds_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 339.129 ; gain = 129.414
+INFO: [Synth 8-638] synthesizing module 'system_auto_ds_0' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ip/system_auto_ds_0/synth/system_auto_ds_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_top' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_axi_downsizer' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2380]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_b_downsizer' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1251]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_b_downsizer' (1#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1251]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen' (20#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo' (21#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized0' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized0' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized0' (21#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized0' (21#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer' (22#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_w_downsizer' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2016]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_w_downsizer' (23#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2016]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer__parameterized0' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized1' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized1' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized1' (23#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized1' (23#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer__parameterized0' (23#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_r_downsizer' [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1533]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_r_downsizer' (24#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1533]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_axi_downsizer' (25#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2380]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_top' (26#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-256] done synthesizing module 'system_auto_ds_0' (27#1) [d:/Vivado_workspace/vivado2016.4/Genesys-2-HDMI-2016.4-5/Genesys-2-HDMI/src/bd/system/ip/system_auto_ds_0/synth/system_auto_ds_0.v:57]
+Finished RTL Elaboration : Time (s): cpu = 00:01:22 ; elapsed = 00:01:31 . Memory (MB): peak = 466.297 ; gain = 256.582
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:22 ; elapsed = 00:01:31 . Memory (MB): peak = 466.297 ; gain = 256.582
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 739.531 ; gain = 0.117
+Finished Constraint Validation : Time (s): cpu = 00:01:33 ; elapsed = 00:01:43 . Memory (MB): peak = 739.531 ; gain = 529.816
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:33 ; elapsed = 00:01:43 . Memory (MB): peak = 739.531 ; gain = 529.816
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:33 ; elapsed = 00:01:43 . Memory (MB): peak = 739.531 ; gain = 529.816
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:35 ; elapsed = 00:01:45 . Memory (MB): peak = 739.531 ; gain = 529.816
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:42 ; elapsed = 00:01:53 . Memory (MB): peak = 739.531 ; gain = 529.816
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------+-------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|Module Name            | RTL Object                                                                    | Inference      | Size (Depth x Width) | Primitives   | 
++-----------------------+-------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|fifo_generator_v13_1_3 | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 9               | RAM32M x 2   | 
+|fifo_generator_v13_1_3 | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 35              | RAM32M x 6   | 
+|fifo_generator_v13_1_3 | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 35              | RAM32M x 6   | 
++-----------------------+-------------------------------------------------------------------------------+----------------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:51 ; elapsed = 00:02:02 . Memory (MB): peak = 739.531 ; gain = 529.816
+Finished Timing Optimization : Time (s): cpu = 00:01:54 ; elapsed = 00:02:05 . Memory (MB): peak = 761.098 ; gain = 551.383
+Finished Technology Mapping : Time (s): cpu = 00:01:55 ; elapsed = 00:02:06 . Memory (MB): peak = 763.324 ; gain = 553.609
+Finished IO Insertion : Time (s): cpu = 00:01:55 ; elapsed = 00:02:07 . Memory (MB): peak = 763.324 ; gain = 553.609
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:55 ; elapsed = 00:02:07 . Memory (MB): peak = 763.324 ; gain = 553.609
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:56 ; elapsed = 00:02:07 . Memory (MB): peak = 763.324 ; gain = 553.609
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:56 ; elapsed = 00:02:07 . Memory (MB): peak = 763.324 ; gain = 553.609
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:56 ; elapsed = 00:02:07 . Memory (MB): peak = 763.324 ; gain = 553.609
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:56 ; elapsed = 00:02:07 . Memory (MB): peak = 763.324 ; gain = 553.609
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    24|
+|2     |LUT1   |    21|
+|3     |LUT2   |   101|
+|4     |LUT3   |   370|
+|5     |LUT4   |   646|
+|6     |LUT5   |   108|
+|7     |LUT6   |   285|
+|8     |RAM32M |    14|
+|9     |FDCE   |    69|
+|10    |FDPE   |    63|
+|11    |FDRE   |  1107|
+|12    |FDSE   |     5|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:56 ; elapsed = 00:02:07 . Memory (MB): peak = 763.324 ; gain = 553.609
+synth_design: Time (s): cpu = 00:01:56 ; elapsed = 00:02:03 . Memory (MB): peak = 779.707 ; gain = 530.027
