@@ -4,4 +4,7 @@ Here, the three unique frame has been saved in the DDR3 memory and
 it was displayed at variable refresh rate. The video output is always fixed to the 
 60 fps.
 
+Vivado Version: 2020.2
+Zybo board.
+
 The repo: belongs to Digilent INc.
