@@ -103,7 +103,7 @@ void PrintMenu(void)
 {
     xil_printf("\n\r");
 	xil_printf("**************************************************\n\r");
-	xil_printf("*              RONIX FBR DEMO                    *\n\r");
+	xil_printf("*                    FBR DEMO                    *\n\r");
 	xil_printf("**************************************************\n\r");
 	xil_printf("**************************************************\n\r");
 	xil_printf("\n\r");
