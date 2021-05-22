@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Xilinx Frame Buffer Read IP example
 
 You can use the [editor on GitHub](https://github.com/rappysaha/Prj_TCL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
