@@ -7,4 +7,4 @@ it was displayed at variable refresh rate. The video output is always fixed to t
 Vivado Version: 2020.2
 Zybo board.
 
-The repo: belongs to Digilent INc.
+Folder repo: belongs to Digilent INc.
